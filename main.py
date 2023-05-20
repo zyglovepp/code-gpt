@@ -34,7 +34,7 @@ def merge_files(folder_path, output_file):
             # 如果是文件夹，则递归处理
             if os.path.isdir(file_path):
                 count += merge_files(file_path, output_file)
-            # 如果是代码文件，则添加到txt中
+            # 如果是代码文件，则添加到txt中（此处如果有其他类型的文件也可以修改）
             elif f.endswith('.py') or f.endswith('.cpp') or f.endswith('.c') or f.endswith('.java') or f.endswith('.json'):
                 print(f"正在处理文件：{file_path}")
                 # 获取文件名
