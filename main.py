@@ -80,7 +80,7 @@ if __name__ == '__main__':
     else:
         print("当前程序未以系统权限运行")
     # 设置输入文件夹路径（注意使用原始字符串）
-    folder_path = r'C:\CODE-File\ai\mj\midjourney-proxy'
+    folder_path = r'你的文件绝对路径'
     # 设置输出txt文件名
     output_file = 'output.txt'
     # 合并文件
