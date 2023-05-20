@@ -32,7 +32,7 @@
 直接复制或者使用 git clone 将代码复制到本地
 
 # 运行
-1. 修改需要读取的文件绝对路径，
+1. 修改需要读取的文件绝对路径：folder_path = r'你的文件绝对路径'
 2. 然后运行main.py 
 3. 得到输出的txt文件：out_file.txt
 4. 然后使用https://convertio.co/zh/txt-pdf/ 网站将生成的txt文件转成pdf文件
